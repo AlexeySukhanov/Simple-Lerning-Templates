@@ -1,0 +1,99 @@
+/*--------------------------------------------------------------------------
+author:                                                      Sukhanov Alexey
+e-mail:                                                  yellocoma@gmail.com
+rezume:  http://voronezh.hh.ru/resume/9a87d538ff021cddfd0039ed1f32614d584248
+--------------------------------------------------------------------------*/
+
+/* =Common styles
+--------------------------------------------------------------------------*/
+
+@font-face {
+font-family: Tahoma;
+src: url(fonts/tahoma.ttf);
+}
+
+html {font: 12px Tahoma, sans-serif; background: url(../images/bg/bg.jpg) no-repeat; background-size: 100% 100%;}
+body {margin: 0; padding: 0; background: url(../images/top/clouds.jpg) no-repeat center top;}
+.clear {clear: both;}
+a {outline: none;}
+
+#container {
+	width: 1008px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+/* =Header
+--------------------------------------------------------------------------*/
+#header {margin-left: 14px; height: 121px;}
+.tel {float: left; background: url(../images/top/contact_line.png) no-repeat; padding-left: 11px; padding-top: 11px; margin-right: 50px;}
+.email {float: left; background: url(../images/top/contact_line.png) no-repeat; padding-left: 9px; padding-top: 11px; margin-right: 23px;}
+.call {float: left; background: url(../images/top/worker_button.png) no-repeat bottom; height: 112px; width: 213px; margin-top: 9px; position: relative;}
+.call a{ display: block; position: absolute; left: 83px; top: 91px; color: #fff; text-decoration: none; font: 12px Tahama, sans-serif;}
+
+.logo{float: left; margin-top: 5px; margin-right: 145px;}
+.contact_text{font: 12px Tahama, sans-serif; color:  #588092;}
+.contact_number, .contact_number a{font:  bold 18px Tahama, sans-serif; color: #236583;}
+
+.tel > *, .email > * {margin-bottom:4px;}
+
+
+
+.menu {list-style: none; margin: 0; padding: 8px 13px 30px 4px; width: 233px;
+}
+.menu li { background: url(../images/menu/line.gif) no-repeat bottom; }
+.menu li:hover {background-color: #dae2e2;}
+.menu li a { text-decoration: none; display: block; font: 14px Tahoma, sans-serif; color: #376377; padding: 5px 0 0 38px; 
+		background: url(../images/menu/marker.png) no-repeat 15px 9px; height: 31px; }
+
+
+/* =Content
+--------------------------------------------------------------------------*/
+#content { padding-bottom: 0; background: url(../images/bg/bgall.png) no-repeat left top; background-position: -17px -14px ; }
+#content2 {padding-bottom: 0; background: url(../images/bg/bg_bottom.png) no-repeat -17px bottom; padding-bottom: 28px;
+}
+.second_column {  float: left;width: 241px;}
+.certificate {border: 1px solid #bdc3c7; background-color: #fff; width: 233px; height: 222px; margin: 4px 0px 0px 4px; border-radius: 10px;}
+.name_block {background-color: #fff; border-radius: 9px; font: bold 14px Tahoma, sans-serif; color: #6c924c; padding: 13px 0 13px 22px;}
+.content_block {background-color: #e8edf0; border-radius: 0 0 8px 8px; height: 179px;}
+.certificate .content_block img{margin: 17px 0 0 63px; border: 1px solid transparent;}
+.certificate .content_block img:hover {border: 1px solid #236583;}
+.manufacturers {border: 1px solid #bdc3c7; width: 233px; height: 232px; margin: 14px 0px 0px 4px; border-radius: 10px;}
+.manufacturers .content_block {background: url(../images/partners/partners.jpg) no-repeat center 0px;}
+.manufacturers .name_block {padding:14px 0 13px 21px;}
+
+.main_column {  float: left; width: 716px;}
+.item {border: 1px solid #bdc3c7; border-radius: 10px; background-color: #fff; width: 720px;  margin: 10px 0 0 19px;  padding: 9px 0 9px 9px;}
+.item img {float: left; margin-right: 16px;}
+.item .txt {float: left; width: 508px; }
+.item h2 {margin: 4px 0 12px; }
+.item h2 a {font:  bold 18px Tahama, sans-serif; color: #529619; text-decoration:none;}
+.item h2 a:hover {text-decoration: underline;}
+hr {color: #B9C5CA;}
+.item p { word-spacing: -1px; padding: 0px 10px 0 0; margin-top: 8px;}
+.item .more a {float: right; color: #2F9DCE; margin-right: 12px;}
+
+.greeting {margin: 23px 0 37px 19px; font-size: 14px;  width: 724px; }
+.greeting  h2{font:  bold 18px Tahama, sans-serif; color: #529619; margin-bottom: 7px}
+.greeting p {margin-top: 0; line-height: 17px;}
+.greeting .more {position: relative; bottom: 21px;}
+.greeting .more a, .gallery a {float: right; color: #2F9DCE; margin-right: 7px; font-size: 12px; }
+
+.gallery {border: 1px solid #bdc3c7; border-radius: 10px; background-color: #fff;  width: 729px; height: 240px;  margin: 10px 0 0 19px;  padding: 9px 0 9px 0px;}
+.gallery_header {margin-bottom: 26px;}
+.gallery_header h3 {float: left; font: bold 14px Tahoma, sans-serif; color: #6c924c; margin: 5px 0 0 10px;}
+.gallery_header .more  a{ margin: 5px 18px 0 0 ;} 
+.gallery_item {float: left;   margin-left: 5px; width: 155px; height: 183px; border: 1px solid #bdc3c7; padding: 5px 0 0 12px;}
+.gal_footer{ margin-left: 12px; width: 718px;}
+
+.gallery_item:hover{ border: 1px solid #236583;}
+
+.bottom_block {background: url(../images/bg/bg_bottom.jpg) no-repeat bottom; height: 1400px;}
+
+/* =Footer
+--------------------------------------------------------------------------*/
+#footer { color: #114157;  margin: 48px 0 40px 50px; position:relative; bottom: 20px; word-spacing: 0.2em; }
+#footer a {color: #236583;}
+#footer .footer_text {line-height: 74px; text-align:center;}
+#footer .footer_menu {text-align:center;}

@@ -1,0 +1,65 @@
+/*---------------------------------------------------------
+"Privat House" Tamplate
+-----------------------------------------------------------
+stylesheet version:                   1.1
+author:                               Sukhanov Alexey
+e-mail:                               yellocoma@gmail.com
+----------------------------------------------------------*/
+
+/* =Common styles
+----------------------------------------------------------*/
+* {margin:0; padding: 0; font: 14px Arial, sans-serif  ;}
+
+h1, h2, h2 > a, h3 { font-family: Georgia ; font-weight: normal; color: #323232;  }
+h1 {font-size: 21px;}
+h2, h2 > a{font-size: 21px; text-decoration: none; }
+h3 {font-size: 18px;}
+
+.clear {clear: both;}
+
+a, a > img {outline: none;}
+a {color: #404040;}
+
+.container {width: 1020px; margin: 0 auto;}
+
+/* =block_logo-menu
+----------------------------------------------------------*/
+.container {background: #fbf5ea url(../images/footer_img.jpg) no-repeat right bottom;}
+.block_logo-menu {background: url(../images/bg/header.jpg) repeat-x; height: 66px; padding: 0px 51px 0 80px; }
+.logo {float: left; margin-top: 9px;}
+.menu {list-style: none; float:right; margin-top: 24px; }
+.menu li {display: inline; padding-right:0px;}
+.menu li a { text-decoration: none; color:#AFB0B0; }
+.menu li a { padding:3px 4px 2px 4px ;  }
+.menu li a:hover, .menu li a.active {background: url(../images/menu/bg.png) no-repeat; background-size: 100% 100%; color:#ddddcc;}
+
+
+/* =block_banner_top
+----------------------------------------------------------*/
+.block_banner_top{background: url(../images/banner_top.jpg) no-repeat ; height:317px;}
+.block_tel{float:right; color: #323232; padding-right: 32px;}
+.tel_text{float:left; font: 28px Georgia ; padding-right: 12px;}
+.tel_number{float:right; font: 28px Georgia ;  padding-top: 2px;}
+
+/* =Content
+----------------------------------------------------------*/
+.content {padding-top: 33px; }
+.block_about {float: left; width: 300px; padding: 0 17px 0 23px;}
+.block_projects {float: left; width: 300px; padding: 0 20px;}
+.block_news {float: right; width: 300px; padding: 0 23px 0 17px; margin-bottom:84px;}
+.content h2 { padding: 0 0 57px 40px; background: url(../images/bg/wave.jpg) no-repeat 0 40px;}
+.item {width:265px; margin:0 auto;}
+.content h3 {padding-top: 17px;}
+.content p {text-align: justify; padding-top: 24px;}
+.block_after{padding: 50px 0 0 18px;}
+.dashed_line {width:186px; border-top: dashed 1px  #9f9d97; float: left;}
+.button_more { float: left;}
+
+/* =Footer
+----------------------------------------------------------*/
+.footer {position: relative; height:310px; clear: both; }
+.outer_block_partners { position: absolute; top:94px;   width:489px; height: 167px; }
+.right_partners{float: left; padding: 8px 0 0 20px  }
+.left_partners{float: left; padding-top: 15px; margin-left: 14px;}
+.footer h2 {padding: 14px 0 18px 40px;}
+.inner_block_partners{width:489px; height: 127px; background-color: #fff;}
